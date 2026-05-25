@@ -7,24 +7,29 @@
       "tabname": "Details",
       "views": [
         {
+          "class": "DepictionBannerView",
+          "banner": "https://raw.githubusercontent.com/opticalraze/neosiri-repo/main/depictions/com.opticalraze.neosiri/banner.png",
+          "itemCornerRadius": 12
+        },
+        {
           "class": "DepictionScreenshotsView",
-          "itemCornerRadius": 6,
+          "itemCornerRadius": 8,
           "itemSize": "{160, 284}",
           "screenshots": [
             {
               "accessibilityText": "Screenshot 1",
-              "url": "https://yourdomain.com/depictions/com.opticalraze.neosiri/screenshots/1.png"
+              "url": "https://raw.githubusercontent.com/opticalraze/neosiri-repo/main/depictions/com.opticalraze.neosiri/screenshots/1.png"
             },
             {
               "accessibilityText": "Screenshot 2",
-              "url": "https://yourdomain.com/depictions/com.opticalraze.neosiri/screenshots/2.png"
+              "url": "https://raw.githubusercontent.com/opticalraze/neosiri-repo/main/depictions/com.opticalraze.neosiri/screenshots/2.png"
             }
           ]
         },
         {
           "class": "DepictionMarkdownView",
           "useSpacing": true,
-          "markdown": "**NeoSiri** brings a fresh, modern look to Siri with beautiful new colors and animations.\n\nA lightweight tweak that customizes Siri's appearance system-wide.\n\n**Supports iOS 15 - 16**"
+          "markdown": "**NeoSiri** brings a fresh, modern look to Siri with beautiful new colors, gradients, and smooth animations.\n\nA lightweight tweak that completely redesigns the Siri interface."
         },
         {
           "class": "DepictionSeparatorView"
@@ -41,22 +46,17 @@
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "1.0"
+          "text": "1.6.0-4+debug"
         },
         {
           "class": "DepictionTableTextView",
           "title": "Compatible with",
-          "text": "iOS 15.0 - 16.x"
+          "text": "iOS 14.0 - 18.x"
         },
         {
           "class": "DepictionTableTextView",
           "title": "Bundle ID",
           "text": "com.opticalraze.neosiri"
-        },
-        {
-          "class": "DepictionTableTextView",
-          "title": "Section",
-          "text": "Tweaks"
         }
       ]
     },
@@ -65,19 +65,8 @@
       "tabname": "Changelog",
       "views": [
         {
-          "class": "DepictionLayerView",
-          "views": [
-            {
-              "class": "DepictionLabelView",
-              "text": "1.0",
-              "fontWeight": "bold",
-              "fontSize": 16
-            }
-          ]
-        },
-        {
           "class": "DepictionMarkdownView",
-          "markdown": "• Initial release\n• New color themes for Siri"
+          "markdown": "**Version 1.6.0-4+debug**\n• Initial public release"
         }
       ]
     }
