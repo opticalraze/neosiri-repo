@@ -8,7 +8,7 @@ Author: OpticalRaze
 Section: Tweaks
 Depends: firmware (>= 15.0)
 Homepage: https://github.com/opticalraze/neosiri-repo
-Depiction: https://raw.githubusercontent.com/opticalraze/neosiri-repo/main/depictions/com.opticalraze.neosiri/depiction.html
+Depiction: https://raw.githack.com/opticalraze/neosiri-repo/main/depictions/com.opticalraze.neosiri/depiction.html
 SileoDepiction: https://raw.githubusercontent.com/opticalraze/neosiri-repo/main/depictions/com.opticalraze.neosiri/sileo.json
 Icon: https://raw.githubusercontent.com/opticalraze/neosiri-repo/main/icons/com.opticalraze.neosiri.png
 Filename: debs/com.opticalraze.neosiri/com.opticalraze.neosiri_1.6.0-4+debug_iphoneos-arm64.deb
