@@ -1,7 +1,7 @@
 {
   "class": "DepictionTabView",
   "minVersion": "0.4",
-  "headerImage": "https://raw.githubusercontent.com/opticalraze/neosiri-repo/main/depictions/com.opticalraze.neosiri/banner.png",
+  "headerImage": "https://raw.githubusercontent.com/opticalraze/neosiri-repo/main/depictions/com.opticalraze.neosiri/banner2.png",
   "tintColor": "#C026FF",
   "backgroundColor": "#0A0A1F",
   "tabs": [
@@ -11,7 +11,7 @@
       "views": [
         {
           "class": "DepictionBannerView",
-          "banner": "https://raw.githubusercontent.com/opticalraze/neosiri-repo/main/depictions/com.opticalraze.neosiri/banner.png",
+          "banner": "https://raw.githubusercontent.com/opticalraze/neosiri-repo/main/depictions/com.opticalraze.neosiri/banner2.png",
           "itemCornerRadius": 12
         },
         {
